@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+div#cart {
+    font: caption;
+    font-size: xx-large;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: goldenrod;
+}
+h1#title {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 1em;
+}
+div#myProfile {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#uname {
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 3em;
+}s
+div#bday {
+    margin-top: 10px;
+    font-size: large;
+}
+div#name {
+    margin-top: 10px;
+    font-size: large;
+}
+div#settings-button-div {
+    margin-top: 25px;
+}
+
+button#settings-button {
+	margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 30px;
+}
+
+button#browse {
+    margin-left: 46%;
+    margin-right: 46%;
+    margin-top: 10px;
+    width: 8%;
+    height: 30px;
+}
+a#logout {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+a {
+    color: blue;
+}
+div#no-products {
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.no-products-text {
+    justify-content: center;
+    display: flex;
+}
+.products-text {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+ul#products-list {
+    font-size: larger;
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: antiquewhite;
+  width: max-content;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+tr.product-tr {
+    display: flex;
+    justify-content: center;
+}

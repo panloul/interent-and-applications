@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>092020 Apathon - internet and applications</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+	<servlet>
+		<servlet-name>newUser</servlet-name>
+		<jsp-file>/newUser.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>myhomepage</servlet-name>
+		<jsp-file>/myhomepage.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>pageupdate</servlet-name>
+		<jsp-file>/pageupdate.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>products</servlet-name>
+		<jsp-file>/products.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>cart</servlet-name>
+		<jsp-file>/cart.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>thankyou</servlet-name>
+		<jsp-file>/thankyou.html</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>newUser</servlet-name>
+		<url-pattern>/newUser</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>myhomepage</servlet-name>
+		<url-pattern>/myhomepage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pageupdate</servlet-name>
+		<url-pattern>/pageupdate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>products</servlet-name>
+		<url-pattern>/products</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>cart</servlet-name>
+		<url-pattern>/cart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>thankyou</servlet-name>
+		<url-pattern>/thankyou</url-pattern>
+	</servlet-mapping>
+</web-app>

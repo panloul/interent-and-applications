@@ -1,0 +1,115 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+div#cart {
+    font: caption;
+    font-size: xx-large;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: goldenrod;
+}
+h1#title {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 1em;
+}
+a {
+    color: blue;
+}
+a#logout {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+a#logout {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+a#home {
+    margin-top: 3px;
+}
+div#no-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    margin-top: 5%;
+}
+button#browse {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button#my-home-page {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: white;
+  width: max-content;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-height: 350px;
+  overflow: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: LightGray
+}
+div#price {
+    width: 810px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background: antiquewhite;
+}
+a.sum {
+    color: black;
+    font-size: large;
+}
+div#voucher-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: larger;
+}
+input#voucher {
+    margin-left: 10px;
+    width: 107px;
+}
+form#country-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+select#country {
+    margin-left: 40px;
+    width: 115px;
+}
+div#purchase-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+button#purchase {
+    width: 80px;
+    height: 30px;
+}

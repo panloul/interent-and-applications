@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+div#cart {
+    font: caption;
+    font-size: xx-large;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: goldenrod;
+}
+h1#title {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 1em;
+}
+form#form {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    
+}
+input#fname {
+    margin-left: 29px;
+    width: 120px;
+}
+input#date {
+    margin-left: 10px;
+    width: 120px;
+}
+button#back {
+    width: 6%;
+    margin-left: 47%;
+    height: 30px;
+    margin-top: 20px;
+}
+input[type="submit"] {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 30px;
+}
+a#logout {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+a {
+    color: blue;
+}

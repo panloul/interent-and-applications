@@ -1,0 +1,45 @@
+@charset "UTF-8";
+div#register {
+    width: max-content;
+    flex: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 6em;
+}
+
+h1#title {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 1em;
+}
+
+h3.register-h {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px
+}
+
+input#submit-td {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1em;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+input[type="date"] {
+    width: 130px;
+}
+input[type="text"] {
+    width: 127px;
+}
+input[type="password"] {
+    width: 127px;
+}
