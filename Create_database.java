@@ -102,7 +102,11 @@ public class Create_database {
 		insertProduct("Laptop Lenovo IdeaPad 3 15.6 (AMD Ryzen 3 3250U/8GB/256GB SSD/AMD Radeon Graphics) 15ADA05" , "458.87");
 		insertProduct("Laptop HP 15.6 ( i5-1035G1/8GB/512GB SSD/Intel UHD) 15s-fq1005nv" , "598.99");
 		insertProduct("Laptop ASUS X509JA-WB301T I3-1005G1/4GB/256 SSD/UHD" , "449.00");
-		
+		insertProduct("Desktop DELL Inspiron 3671 Intel Core i5-9400/ 8GB/256SSD + 1TB HDD / Intel UHD Graphics 630" , "5998.99");
+		insertProduct("Desktop Desktop Quest Me (AMD Ryzen 5 2600 /8GB/256GB SSD/NVIDIA GeForce GT 710 2GB) 99889" , "499.00");
+		insertProduct("Desktop Dell Inspiron 3671 Intel Core i3-9100/ 8GB/1TB HDD / Intel UHD Graphics 630" , "459.00");
+		insertProduct("Desktop ASUS ROG Strix GL10CS-WB029T (i5-9400/8GB/1TB HDD /GeForce GTX 1050 2GB )" , "749.00");
+		insertProduct("Desktop DELL Inspiron 5090 Intel Core i5-9400/ 8GB/256SSD + 1TB HDD / GeForce GTX 1660 Ti" , "999.01");
 
 	}
 	
