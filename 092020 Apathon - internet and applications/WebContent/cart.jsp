@@ -110,7 +110,6 @@
 					String product_price = product_prices.get(product_id);
 
 					pageContext.setAttribute("product_id", product_id);
-					pageContext.setAttribute("product_price", product_price);
 					pageContext.setAttribute("product_name", product_name);
 					pageContext.setAttribute("product_price", product_price);
 			        sum += Float.parseFloat(product_price);
