@@ -50,14 +50,6 @@
 				String product_id = rs.getString("product_id");
 		        String product_name = rs.getString("product_name");
 		        String product_price = rs.getString("product_price");
-		        ArrayList<String> products = null;
-		        if(session.getAttribute("products") == null){
-		        	products = new ArrayList<>();
-		        	session.setAttribute("products", products);
-		        }
-		        else{
-		        	products = (ArrayList<String>)session.getAttribute("products");
-		        }
 		        
 		        String tax = (String)session.getAttribute("tax");
 		        if(tax == null){
